@@ -1,0 +1,31 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+
+
+body {
+	font-family: sans-serif;
+	padding: var(--spacing);
+	padding-bottom: 33vh;
+}
+
+aside { margin-bottom: calc(4 * var(--spacing)); }
+
+h1 { font-size: 200%; }
+
+h2 { font-weight: bold; margin: 10px;}
+
+a { color: blue; }
+
+em { font-style: italic }
+
+div{
+    padding: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.faded { opacity: 0.333 }
